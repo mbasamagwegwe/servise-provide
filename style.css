@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+img {
+    margin-top: 80px;
+}
+
+p {
+    color: white;
+    font-size: 75px;
+}
+
+hr {
+    width: fit-content;
+    height: fit-content;
+    color: red;
+}
+
+.navbar {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: anton;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: red;
+    border: 2px solid#fff;
+    height: 50px;
+}
